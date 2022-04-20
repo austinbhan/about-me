@@ -31,9 +31,7 @@ body {
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
 }
-.hidden {
-    display: none;
-}
+
 main {
     display: flex;
     flex-direction: column;
@@ -66,6 +64,10 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+}
+
+h1 {
+    font-family: "Comic Sans MS";
 }
 
 h2 {

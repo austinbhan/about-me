@@ -40,8 +40,8 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
-.my-style {
-    background-color: pink;
+.hidden {
+    display: none;
 }
 
 section {

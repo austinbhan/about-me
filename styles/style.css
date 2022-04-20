@@ -31,13 +31,19 @@ body {
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
 }
-
+.hidden {
+    display: none;
+}
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+}
+
+.my-style {
+    background-color: pink;
 }
 
 section {

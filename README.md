@@ -10,14 +10,20 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 
 Main
-1. **Once you have a drawing, name the HTML elements you'll need to realize your vision** See Drawing 
-1. **For each HTML element ask: Why do I need this?** Done
-1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"** What do I want to do with the buttons?
+1. **Once you have a drawing, name the HTML elements you'll need to realize your vision** See Drawing
+- Three Buttons w/hidden phrases
+1: Who am I? (hidden)
+2: What do I enjoy doing? (hidden)
+3: Favorite Animaml (toggle)
+1. **For each HTML element ask: Why do I need this?** 
+1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"** Make const for each button and parapgraph. Even listeners should include class removal, or toggle.
+
+Use two class removers, one class toggle. 
 1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?** Clickety click click
-1. **Think about how to validate each of your features according to a Definition of Done** Do the buttons work? 
+1. **Think about how to validate each of your features according to a Definition of Done** Do the buttons work? Yesh
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
-Next Steps: Decorate, and publish onto not-Github.
+Next Steps: Decorate, and publish onto Netlify. 
 
 Additional considerations:
 

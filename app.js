@@ -23,7 +23,7 @@ whatILikeButton.addEventListener('click', () => {
 });
 
 animalButton.addEventListener('click', () => {
-    gooseDiv.classList.remove('hidden');
+    gooseDiv.classList.toggle('hidden');
 });
 
     // get user input
